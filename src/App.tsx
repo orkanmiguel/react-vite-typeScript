@@ -5,6 +5,7 @@ import { BasicFunctions } from "./assets/typescript/BasicFunctions"; */
 import { Counter } from "./assets/components/Counter";
 import { LoginPage } from "./assets/components/LoginPage";
 import { AuthProvider } from "./context/AuthContext";
+import { UserPage } from "./assets/components/UserPage";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         {/* <ObjectLiterals /> */}
         {/* <BasicFunctions /> */}
         {/*    <Counter /> */}
-        <LoginPage />
+        {/* <LoginPage /> */}
+        <UserPage />
       </div>
     </AuthProvider>
   );
